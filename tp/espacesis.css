@@ -1,0 +1,109 @@
+.header{
+    padding:80px;
+    text-align:center;
+    background: #1abc9c;
+    color:rgb(202, 2, 2);
+    background-image: url("KK.jpg");
+    background-size: cover;
+}
+
+.header{
+    font-size: 40px;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: rgb(160, 138, 154);
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: rgb(246, 255, 205);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a.right{
+    float: right;
+}
+
+.navbar a:hover{
+    background-color: rgb(37, 190, 228);
+    color: rgb(244, 224, 224);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side{
+    flex: 30%;
+    background-color: #807c7c;
+    padding: 20px;
+    background-image: url("dl.jpg");
+    background-size: cover;
+}
+
+.main{
+    flex: 70%;
+
+    padding: 15px;
+    background-image: url("JK.jpg");
+    background-size: cover;
+}
+
+.tr{
+    background-color: rgb(246, 164, 164);
+    width: 100%;
+    background-image: url("fr.JPG");
+    background-size: cover;
+    height: 100px;
+    padding-left:45%;
+    color: rgb(185, 165, 137);
+    padding-top: 10px;
+    display: block;
+}
+
+
+.fakeimg{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.mon{
+
+    height: 320px;
+    width: 310px;
+    border-radius: 10px;
+}
+
+.mg{
+
+    background: rgba(5, 112, 124, 0.8);
+}
+
+.sous{
+
+    padding-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    line-height: 30px;
+    padding-top: 60px;
+}
+.tr a:hover{
+    background-color:rgb(245, 25, 25);
+
+}
+
+.tr a{
+    
+    display: block;
+    line-height: 25px;
+}
